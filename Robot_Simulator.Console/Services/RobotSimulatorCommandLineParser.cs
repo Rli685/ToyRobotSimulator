@@ -17,7 +17,7 @@ namespace Robot_Simulator.ConsoleUI.Services
             string trimedInput = input.Trim();
             if (trimedInput.Length == 0) return null;
 
-            char[] separator =new char[] { ' ', ','};
+            char[] separator =new char[] { ' '};
             string[] parameters = trimedInput.Split(separator, StringSplitOptions.RemoveEmptyEntries);
 
             string cmd = parameters[0];
@@ -45,14 +45,17 @@ namespace Robot_Simulator.ConsoleUI.Services
                     else
                         return null;
                 case "PLACE":
-                    if (numberOfParameters == 4)
+                    if (numberOfParameters >1)
                     {
+                        char[] separator2 = new char[] { ',' };
+                        string[] arguments = String.Join(" ", parameters.Skip(1)).Split(separator2, StringSplitOptions.RemoveEmptyEntries);
+                        if (arguments.Count() != 3) return null;
                         int x, y;
-                        if(int.TryParse(parameters[1], out x)  &&
-                           int.TryParse(parameters[2], out y) )
+                        if(int.TryParse(arguments[0].Trim(), out x)  &&
+                           int.TryParse(arguments[1].Trim(), out y) )
                         {
                             Position position = new Position(x, y);
-                            switch (parameters[3])
+                            switch (arguments[2].Trim())
                             {
                                 case "NORTH":
                                     return new Command_Place(position, Facing.NORTH);

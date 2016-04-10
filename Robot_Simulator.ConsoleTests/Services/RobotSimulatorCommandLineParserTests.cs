@@ -27,6 +27,8 @@ namespace Robot_Simulator.ConsoleUI.Services.Tests
             testData.Add("invalid command", null);
             testData.Add("  MOVE     ", new Command_Move());
             testData.Add("   PLACE  1    ,    1  ,   NORTH   ", new Command_Place(new Position(1, 1), Facing.NORTH));
+
+            testData.Add("   PLACE  1  1  ,       NORTH   ", null);
             testData.Add("MOVE Something", null);
 
             RobotSimulatorCommandLineParser parser = new RobotSimulatorCommandLineParser();
