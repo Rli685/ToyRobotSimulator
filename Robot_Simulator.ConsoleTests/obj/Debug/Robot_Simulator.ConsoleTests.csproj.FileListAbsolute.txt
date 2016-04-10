@@ -1,0 +1,10 @@
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.ConsoleTests\bin\Debug\Robot_Simulator.ConsoleTests.dll
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.ConsoleTests\bin\Debug\Robot_Simulator.ConsoleTests.pdb
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.ConsoleTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.ConsoleTests\bin\Debug\Robot Simulator.dll
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.ConsoleTests\bin\Debug\Robot_Simulator.Console.exe
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.ConsoleTests\bin\Debug\Robot Simulator.pdb
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.ConsoleTests\bin\Debug\Robot_Simulator.Console.pdb
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.ConsoleTests\obj\Debug\Robot_Simulator.ConsoleTests.csprojResolveAssemblyReference.cache
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.ConsoleTests\obj\Debug\Robot_Simulator.ConsoleTests.dll
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.ConsoleTests\obj\Debug\Robot_Simulator.ConsoleTests.pdb

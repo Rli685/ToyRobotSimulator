@@ -7,7 +7,7 @@ using Robot_Simulator.ConsoleUI.Models;
 
 namespace Robot_Simulator.ConsoleUI.Controllers
 {
-    class RobotSimulatorCommandController : ICommandControler
+    public class RobotSimulatorCommandController : ICommandControler
     {
         private RobotSimulator _simulator;
 

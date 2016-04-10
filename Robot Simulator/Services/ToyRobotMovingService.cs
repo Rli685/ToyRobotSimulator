@@ -46,6 +46,8 @@ namespace Robot_Simulator.Services
 
         private Position nextPosition(Robot robot)
         {
+            if (robot == null) throw new ArgumentNullException(nameof(Robot));
+
             Position p=robot.Position;
             switch (robot.Facing)
             {
@@ -57,8 +59,10 @@ namespace Robot_Simulator.Services
                     return new Position(p.X, p.Y + 1);
                 case Facing.SOUTH:
                     return new Position(p.X, p.Y - 1);
+                default:
+                    throw new NotImplementedException();
             }
-            throw new NotImplementedException();
+            
         }
 
         private bool IsValid(Position position, TableTop table)
