@@ -13,6 +13,7 @@ namespace Robot_Simulator.ConsoleUI.Services
     {
         public Command Parsing(string input)
         {
+            if (input == null) return null;
             string trimedInput = input.Trim();
             if (trimedInput.Length == 0) return null;
 

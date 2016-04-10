@@ -70,14 +70,14 @@ namespace Robot_Simulator.Services.Tests
 
             //Test 2
             position = new Position(0, 1);
-            facing = Facing.NORTH;
+            facing = Facing.SOUTH;
             robot.Position = position;
             robot.Facing = facing;
             result = movingService.Move(robot, table);
-            //Robot move north from 0,1
+            //Robot move SOUTH from 0,1
             //expect new Position is 0,0
             Assert.AreEqual(true, result);
-            Assert.AreEqual(Facing.NORTH, robot.Facing);
+            Assert.AreEqual(Facing.SOUTH, robot.Facing);
             Assert.AreEqual(0, robot.Position.X);
             Assert.AreEqual(0, robot.Position.Y);
 
@@ -109,14 +109,14 @@ namespace Robot_Simulator.Services.Tests
 
             //Test 5
             position = new Position(4, 4);
-            facing = Facing.SOUTH;
+            facing = Facing.NORTH;
             robot.Position = position;
             robot.Facing = facing;
             result = movingService.Move(robot, table);
-            //Robot move south from 4,4
+            //Robot move NORTH from 4,4
             //expect new Position is 4,5
             Assert.AreEqual(true, result);
-            Assert.AreEqual(Facing.SOUTH, robot.Facing);
+            Assert.AreEqual(Facing.NORTH, robot.Facing);
             Assert.AreEqual(4, robot.Position.X);
             Assert.AreEqual(5, robot.Position.Y);
 
@@ -133,14 +133,14 @@ namespace Robot_Simulator.Services.Tests
 
             //Test 1
             Position position = new Position(0, 0);
-            Facing facing = Facing.NORTH;
+            Facing facing = Facing.SOUTH;
             robot.Position = position;
             robot.Facing = facing;
             bool result = movingService.Move(robot, table);
             //Robot move north from 0,0
             //expect new Position is 0,0
             Assert.AreEqual(false, result);
-            Assert.AreEqual(Facing.NORTH, robot.Facing);
+            Assert.AreEqual(Facing.SOUTH, robot.Facing);
             Assert.AreEqual(0, robot.Position.X);
             Assert.AreEqual(0, robot.Position.Y);
 
@@ -159,14 +159,14 @@ namespace Robot_Simulator.Services.Tests
 
             //Test 3
             position = new Position(1, 0);
-            facing = Facing.NORTH;
+            facing = Facing.SOUTH;
             robot.Position = position;
             robot.Facing = facing;
             result = movingService.Move(robot, table);
             //Robot move NORTH from 1,0
             //expect new Position is 1,0
             Assert.AreEqual(false, result);
-            Assert.AreEqual(Facing.NORTH, robot.Facing);
+            Assert.AreEqual(Facing.SOUTH, robot.Facing);
             Assert.AreEqual(1, robot.Position.X);
             Assert.AreEqual(0, robot.Position.Y);
 
@@ -186,14 +186,14 @@ namespace Robot_Simulator.Services.Tests
 
             //Test 5
             position = new Position(3, 5);
-            facing = Facing.SOUTH;
+            facing = Facing.NORTH;
             robot.Position = position;
             robot.Facing = facing;
             result = movingService.Move(robot, table);
             //Robot move south from 3,5
             //expect new Position is 3,5
             Assert.AreEqual(false, result);
-            Assert.AreEqual(Facing.SOUTH, robot.Facing);
+            Assert.AreEqual(Facing.NORTH, robot.Facing);
             Assert.AreEqual(3, robot.Position.X);
             Assert.AreEqual(5, robot.Position.Y);
 

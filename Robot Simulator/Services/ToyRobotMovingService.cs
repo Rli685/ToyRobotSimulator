@@ -54,9 +54,9 @@ namespace Robot_Simulator.Services
                 case Facing.WEST:
                     return new Position(p.X - 1, p.Y);
                 case Facing.NORTH:
-                    return new Position(p.X, p.Y - 1);
-                case Facing.SOUTH:
                     return new Position(p.X, p.Y + 1);
+                case Facing.SOUTH:
+                    return new Position(p.X, p.Y - 1);
             }
             throw new NotImplementedException();
         }
