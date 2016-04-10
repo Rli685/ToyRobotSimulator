@@ -1,0 +1,8 @@
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.Console\bin\Debug\Robot_Simulator.Console.exe.config
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.Console\bin\Debug\Robot_Simulator.Console.exe
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.Console\bin\Debug\Robot_Simulator.Console.pdb
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.Console\bin\Debug\Robot Simulator.dll
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.Console\bin\Debug\Robot Simulator.pdb
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.Console\obj\Debug\Robot_Simulator.Console.csprojResolveAssemblyReference.cache
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.Console\obj\Debug\Robot_Simulator.Console.exe
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot_Simulator.Console\obj\Debug\Robot_Simulator.Console.pdb
