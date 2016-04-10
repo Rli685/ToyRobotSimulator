@@ -1,0 +1,5 @@
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot Simulator\bin\Debug\Robot Simulator.dll
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot Simulator\bin\Debug\Robot Simulator.pdb
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot Simulator\obj\Debug\Robot Simulator.csprojResolveAssemblyReference.cache
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot Simulator\obj\Debug\Robot Simulator.dll
+c:\users\jerry li\documents\visual studio 2015\Projects\Robot Simulator\Robot Simulator\obj\Debug\Robot Simulator.pdb
